@@ -3,4 +3,4 @@ project(PTA C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(PTA 实验6/10.c)
+add_executable(PTA 实验7/15.c)
