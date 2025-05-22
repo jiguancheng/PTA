@@ -1,0 +1,39 @@
+初始状态
+(node '\0')
+     ^ head
+
+a 输入a
+(node 'a')  (node '\0')
+                ^ head
+
+b 输入b
+(node 'a')  (node 'b')  (node '\0')
+                            ^ head
+
+c 输入c
+(node 'a')  (node 'b')  (node 'c')  (node '\0')
+                                         ^ head
+
+[ 按下home
+(node 'a')  (node 'b')  (node 'c')  (node '\0')
+    ^ head
+
+] 按下end
+(node 'a')  (node 'b')  (node 'c')  (node '\0')
+                                        ^ head
+
+{ 按下 <-
+(node 'a')  (node 'b')  (node 'c')  (node '\0')
+                            ^ head
+
+= 按下 退格
+(node 'a')  (node 'c')  (node '\0')
+                ^ head
+
+- z 按下insert，输入z
+(node 'a')  (node 'z')  (node '\0')
+                             ^ head
+
+- { y 按下insert、<-，输入z
+(node 'a')  (node 'y')  (node 'z')  (node '\0')
+                            ^ head

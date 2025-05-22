@@ -25,7 +25,7 @@ int main() {
             if (y % a1 == 0 && gcd(y / a1, p) == 1 && gcd(q, b1 / y) == 1)
                 ans++;
         }
-        printf("%d", ans);
+        printf("%d\n", ans);
     }
     return 0;
 }
