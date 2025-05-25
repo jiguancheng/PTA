@@ -34,6 +34,6 @@ int main() {
     getchar();
     for (int i = 0; i < n; ++i) {
         fgets(text, 20, stdin);
-        printf("%d", getByteofType(text));
+        printf("%d\n", getByteofType(text));
     }
 }
