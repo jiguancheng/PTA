@@ -33,5 +33,4 @@ int main() {
     int n;
     scanf("%d", &n);
     solve(n, 3);
-    fgets();
 }
