@@ -1,7 +1,7 @@
 //
 // Created by jgc on 25-5-16.
 //
-#include <stdio.h>;
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
